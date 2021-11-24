@@ -5,7 +5,7 @@
 
 #include <windows.h>
 
-extern HWND hwndNow; // 公开一个 hwndNow 
+extern const HWND hwndNow; // 公开一个 hwndNow 
 
 class Console {
 public:

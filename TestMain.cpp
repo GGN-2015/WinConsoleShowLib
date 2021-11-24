@@ -1,11 +1,9 @@
 #include <iostream>
 
-#include "Console.h"
-#include "ConsoleColor.h"
-#include "Screen.h"
+#include "WinConsoleShowLib.h"
 
 int main(int argc, char** argv) {
-	
+	Console::showColorBoard();
 	return 0;
 }
 

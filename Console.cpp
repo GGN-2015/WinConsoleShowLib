@@ -6,7 +6,7 @@
 #include "Console.h"
 #include "ConsoleColor.h"
 
-HWND hwndNow = GetForegroundWindow();
+const HWND hwndNow = GetForegroundWindow(); 
 
 void Console::showStr(const char* str, 
 	int colorID, int row = -1, int col = -1) {

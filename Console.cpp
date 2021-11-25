@@ -19,6 +19,7 @@ void Console::showStr(const char* str,
 }
 
 void Console::showColorBoard() { // 用于调试输出调色板 
+    initialize();
     system("cls"); // 清空屏幕 
     std::cout << "Console::showColorBoard()" << std::endl;
     for(int i = 0; i < 16; i ++) {
